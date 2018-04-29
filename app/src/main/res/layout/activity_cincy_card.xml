@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_height"
+            android:background="@color/colorLight">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/logo_description"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cincy"
+                android:tint="#ffffff" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_illustrative_height"
+            android:alpha="@dimen/image_illustrative_opacity"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ill_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/company_name"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/H1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_directions_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorDark"
+            android:text="@string/company_address"
+            android:textColor="@color/colorDark"
+            android:textColorLink="@color/colorDark"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorDark"
+            android:text="@string/company_phone"
+            android:textColor="@color/colorDark"
+            android:textColorLink="@color/colorDark"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorDark"
+            android:text="@string/company_email"
+            android:textColor="@color/colorDark"
+            android:textColorLink="@color/colorDark"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/ic_web_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/colorDark"
+            android:text="@string/company_website"
+            android:textColor="@color/colorDark"
+            android:textColorLink="@color/colorDark"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:text="@string/company_hours_operation"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/body" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/company_description"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/H2" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cincy Computer Services</string>
+    <string name="company_name">Cincy Computer Services</string>
+    <string name="logo_description">Company logo depicting two computers superimposed offset to each other.</string>
+    <string name="image_description">Tiny figures working on a HDD circuit board.</string>
+    <string name="company_address">100 Joe Nuxhall Way, Cincinnati, OH 45202</string>
+    <string name="company_phone">(555) 555-5555</string>
+    <string name="company_email">Help@CincyComputerServices.com</string>
+    <string name="company_website">www.cincycomputerservices.com</string>
+    <string name="company_hours_operation">Hours of Operation: 8:00am - 5:00pm ET</string>
+    <string name="company_description">Cincy Computer Services specializes in computer repair including, removal of viruses, tune-ups, data-recovery, upgrades, and more.</string>
+    <!--dimens IMAGE, TEXT, etc. -->
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="image_illustrative_height">200dp</dimen>
+    <item name="image_illustrative_opacity" format="float" type="dimen">.65</item>
+    <dimen name="H1">24sp</dimen>
+    <dimen name="H2">20sp</dimen>
+    <dimen name="body">18sp</dimen>
+</resources>
